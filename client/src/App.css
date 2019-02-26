@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.App-header-desc {
+	display: flex;
+	flex-direction: column;
+	font-size: 1.2em;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Notepad-body{
+	display: flex;
+	flex-direction: column;
+}
+
+.Form-body{
+	display: flex;
+	flex-direction: column;
+}
+
+.Submit-body{
+	width: 10%;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.Text-body{
+	width: 55em;
+	height: 30em;
+	display: flex;
+}
+
+.Body{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
