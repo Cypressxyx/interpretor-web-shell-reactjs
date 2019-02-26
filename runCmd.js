@@ -5,6 +5,7 @@ const { exec } = require('child_process');
 const execOuput =	async () => {
 	return new Promise(async resolve => {
 		exec("./interpreter.x input.txt", (err, stdout, stderr) => {
+			stdout = stdout.replace(/\n/g, '??');
 			resolve(err ? stderr : stdout)
 		});
 	});

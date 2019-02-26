@@ -10,7 +10,7 @@ app.get('/express_backend', (req,res) => {
 	//get data from interpreter 
 	runCmds.runCmd().then( results => { 
 		console.log(results);
-		res.send({express: results}); commented for debugging
+		res.send({express: results}); 
 		//res.send(results); for debugging purposes only
 	}).catch(err => {
 		console.log("There was an error running exec: " , err);
